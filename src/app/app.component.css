@@ -1,0 +1,9 @@
+a:link,a:visited{
+    background-color:blue ;
+    display: inline-block;
+    color: antiquewhite;
+    padding: 10px 25px;
+}
+a:hover{
+    background-color:blue ;
+}

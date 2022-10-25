@@ -1,0 +1,17 @@
+<h1>Customer</h1>
+<br>
+<input type="button" (click)="listcustomers($event)" value="list view"/>
+<input type="button" (click)="liscustomers($event)" value="edit view"/>
+<ul *ngFor ="let i of customers">
+    <li>{{i.name}}</li>
+ </ul>
+ <br>
+<table border="1">
+ <tr *ngFor ="let i of customer">
+    <td>{{i.name}}</td>
+    <td><a href="/custform"><input type="button" value="edit"></a></td>
+    
+ </tr>
+ </table>
+ <div class="bottom">Created by @ Vignesh R</div>
+

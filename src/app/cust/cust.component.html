@@ -1,0 +1,21 @@
+<h1>Customers</h1>
+<a href="/cardcust"><input type="button" value="Card view"/></a>
+<input type="button" (click)="printcustomers($event)" value="list view"/>
+<a href="/mapcust"><input type="button" value="Map view"/></a>
+<input type="button"  value="+New Customer"/>
+<table border="1">       
+    <tr *ngFor ="let i of customers">
+        
+        <td><a href="/custinfo">{{i.name}}</a></td>
+        <td>{{i.username}}</td>
+        <td>{{i.email}}</td>
+        <td>{{i.phone}}</td>
+       
+    </tr>
+</table>
+<div class="bottom">Created by @ Vignesh R</div>
+
+
+  
+
+
